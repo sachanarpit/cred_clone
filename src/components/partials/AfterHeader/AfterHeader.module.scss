@@ -1,0 +1,20 @@
+.AfeterHeader {
+    width: 100%;
+    background-color: #272727;
+
+    p {
+
+        color: white;
+        font-family: 'bold';
+        padding: 1.3rem 0rem;
+        font-size: 1.6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            color: #6985bd;
+            margin-left: 1rem;
+        }
+    }
+}
