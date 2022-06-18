@@ -3,7 +3,7 @@ import Styles from "./HeroSection.module.scss";
 export const HeroTopSection = () => {
   return (
     <>
-      <div className={Styles.HeroBottomSection_container}>
+      <div className={Styles.HeroTopSection_container}>
         <div className={Styles.HeroTopSection_insideContainer}>
           <div className={Styles.HeroTopSection_Heading}>
             rewards for paying <br /> credit card bills.
