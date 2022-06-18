@@ -1,5 +1,5 @@
 import Styles from "./index.module.scss";
-import { Header } from "./partials/Header";
+import { Header } from "./partials/Header/Header";
 
 export const RootComp = () => {
   return (

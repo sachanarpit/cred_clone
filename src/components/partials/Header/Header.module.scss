@@ -6,7 +6,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2.5rem 10rem;
+        padding: 4rem 12rem;
 
         .logo_container {
             img {
@@ -23,7 +23,15 @@
             .right_section_link_container {
                 color: white;
 
-                a {}
+                a {
+                        text-decoration: none;
+                        color: snow;
+                        font-family: bold;
+                        color: rgb(255, 255, 255);
+                        opacity: 0.8;
+                
+                
+                    }
             }
         }
 
