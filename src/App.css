@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "light";
+    src: url(./components/assets/font/Gilroy-Light.ttf);
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(./components/assets/font/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: "medium";
+    src: url(./components/assets/font/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(./components/assets/font/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: "extra-bold";
+    src: url(./components/assets/font/Gilroy-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "heavy";
+    src: url(./components/assets/font/Gilroy-Heavy.ttf);
+}
+
+@font-face {
+    font-family: "semi-bold";
+    src: url(./components/assets/font/Gilroy-SemiBold.ttf);
+}
+
+body {
+    font-family: medium;
+    font-size: 1.2rem;
+}

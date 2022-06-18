@@ -1,0 +1,32 @@
+.Header_Container {
+    width: 100%;
+
+    .Header_section {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2.5rem 10rem;
+
+        .logo_container {
+            img {
+                width: 3rem;
+            }
+        }
+
+        .right_section_container {
+            display: flex;
+            justify-content: space-between;
+            /* width: 30%; */
+            gap: 3rem;
+
+            .right_section_link_container {
+                color: white;
+
+                a {}
+            }
+        }
+
+
+    }
+}
