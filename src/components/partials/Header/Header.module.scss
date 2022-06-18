@@ -1,12 +1,13 @@
 .Header_Container {
     width: 100%;
+    padding: 2rem 0rem;
 
     .Header_section {
 
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 3.5rem 12rem;
+        padding: 1.5rem 12rem;
 
         .logo_container {
             img {
