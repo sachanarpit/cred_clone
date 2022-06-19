@@ -1,3 +1,4 @@
+import { HeroPhone } from "../../../assets";
 import Styles from "./HeroSection.module.scss";
 
 export const HeroTopSection = () => {
@@ -15,11 +16,34 @@ export const HeroTopSection = () => {
             <button>Download CRED</button>
           </div>
         </div>
+        c
       </div>
     </>
   );
 };
 
 export const HeroBottomSection = () => {
-  return <></>;
+  return (
+    <>
+      <div className={Styles.HeroBottomSection}>
+        <div className={Styles.HeroBottomSection_innerContainer}>
+          <div className={Styles.PhoneContainer}>
+            <img src={HeroPhone[1]} alt="" />
+          </div>
+          <div className={Styles.PhoneContainer}>
+            <img src={HeroPhone[2]} alt="" />
+          </div>
+          <div className={Styles.PhoneContainer}>
+            <img src={HeroPhone[3]} alt="" />
+          </div>
+          <div className={Styles.PhoneContainer}>
+            <img src={HeroPhone[4]} alt="" />
+          </div>
+          <div className={Styles.PhoneContainer}>
+            <img src={HeroPhone[5]} alt="" />
+          </div>
+        </div>
+      </div>
+    </>
+  );
 };
