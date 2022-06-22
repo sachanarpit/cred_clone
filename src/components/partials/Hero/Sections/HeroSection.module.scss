@@ -23,51 +23,60 @@
       font-family: "extra-bold";
       font-size: 1.8rem;
     }
+  }
+}
 
-    .HeroTopSection_button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+.HeroBottomSection {
+  .HeroBottomSection_innerContainer {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../../../assets/images/video-bg.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-      button {
-        display: inline-flex;
-        white-space: nowrap;
-        -webkit-box-align: center;
-        align-items: center;
-        position: relative;
-        pointer-events: auto;
-        text-align: center;
-        padding: 20px 65px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        font-size: 24px;
-        font-family: "extra-bold";
-        letter-spacing: 0.4px;
-        line-height: 30px;
-        border-radius: 40px;
-        cursor: pointer;
-        margin-top: 2rem;
+    .PhoneContainer {
+      position: absolute;
+
+      img {
+        width: 10rem;
       }
+    }
+    .Container1 {
+    }
+    .Container2 {
+    }
+    .Container3 {
+    }
+    .Container4 {
+    }
+    .Container5 {
     }
   }
 }
 
-
-.HeroBottomSection{
-    display: flex;
-    justify-content: center;
-    
-    .HeroBottomSection_innerContainer{
-        position: relative;
-        .PhoneContainer{
-            position: absolute;
-            
-            img{}
-        }
-        .Container1{}
-        .Container2{}
-        .Container3{}
-        .Container4{}
-        .Container5{}
-    }
+.HeroTopSection_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Mainbtn {
+  display: inline-flex;
+  white-space: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  pointer-events: auto;
+  text-align: center;
+  padding: 20px 65px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-family: "extra-bold";
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-top: 2rem;
+  border: none;
 }
